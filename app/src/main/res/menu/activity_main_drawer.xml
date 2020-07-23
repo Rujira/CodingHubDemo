@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_face"
+                android:icon="@drawable/ic_face"
+                android:title="@string/menu_face"/>
+
+        <item
+                android:id="@+id/nav_compare"
+                android:icon="@drawable/ic_compare"
+                android:title="@string/menu_face_compare"/>
+
+        <item
+                android:id="@+id/nav_liveness"
+                android:icon="@drawable/ic_liveness"
+                android:title="@string/liveness"/>
+
+    </group>
+
+    <item android:title="@string/menu_license_plate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                        android:id="@+id/nav_license_plate"
+                        android:icon="@drawable/ic_license_plate"
+                        android:title="@string/menu_license_plate_recognition"/>
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

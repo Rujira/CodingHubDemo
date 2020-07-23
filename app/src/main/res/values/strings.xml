@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Face Demo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Demo</string>
+    <string name="nav_header_subtitle">support@iottechgroup.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_add_face">Add New Face</string>
+
+    <string name="menu_face">Facial Recognition</string>
+    <string name="menu_face_compare">Facial Comparison</string>
+    <string name="menu_license_plate">License Plate</string>
+    <string name="menu_license_plate_recognition">License Plate Recognition</string>
+    <string name="liveness">Liveness</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
